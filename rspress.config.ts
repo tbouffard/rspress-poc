@@ -15,4 +15,11 @@ export default defineConfig({
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
   },
+  // https://rspress.dev/guide/basic/deploy#static-resource-prefix-configuration
+  // builderConfig: {
+  //   output: {
+  //     // not working for the home page
+  //     assetPrefix: './',
+  //   },
+  // },
 });
